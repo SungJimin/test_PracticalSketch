@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* common.css */
+
+/* layout */
+.headerWrap .header,
+.footerWrap .footer{
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    max-width: 375px;
+    min-width: 200px;
+}
+
+
+/* content align */
+.d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.flexWrap {
+    -webkit-box-lines: multiple;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.justify_between {
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+}
+
+.justify_around {
+    justify-content: space-around;
+}
+
+.justify_start {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.justify_end {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.justify_center {
+    justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+}
+
+/* font size */
+.h1 {
+    /* font-size: 38px; */
+    font-size: 2.375rem;
+    line-height: 40px;
+}
+
+.h2 {
+    /* font-size: 36px; */
+    font-size: 2.25rem;
+    line-height: 36px;
+}
+
+.h3 {
+    /* font-size: 28px; */
+    font-size: 1.75rem;
+    line-height: 36px;
+}
+
+.h4 {
+    /* font-size: 24px; */
+    font-size: 1.5rem;
+}
+
+.fz20 {
+    /* font-size: 20px; */
+    font-size: 1.25rem;
+    line-height: 26px;
+}
+
+.fz14 {
+    /* font-size: 14px; */
+    font-size: 1rem;
+}
+
+.h5 {
+    /* font-size: 12px; */
+    font-size: 0.75rem;
+}
+
